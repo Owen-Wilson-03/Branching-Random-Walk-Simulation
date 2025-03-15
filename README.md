@@ -1,5 +1,5 @@
-For each value of n we generate 100 binary trees of depth n and assign a sudo randomly generated independent standard normal edge weight to ever edge of the trees. 
-We then compute the weight of every leaf in the tree as the sum of the edges leading to that leaf.
+For each value of n we generate 100 binary trees of depth n and assign a sudo randomly generated independent standard normal edge weight to every edge of the trees. 
+We then compute the weight of each leaf as the sum of the edges leading from the root to that leaf.
 The maximum edge weight for each tree is then saved.
 We output the average of the maximums as well as the variance. 
 Several unifomrly selected leaf weights are also presented. 
